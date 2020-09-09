@@ -210,7 +210,6 @@ def big_shoe_rebounds
       p_s[:shoe]
     end
   end
-  mv
 end
 binding.pry
 
