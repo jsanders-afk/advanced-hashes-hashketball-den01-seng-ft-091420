@@ -184,7 +184,7 @@ def player_numbers(a_team)
     p_n
   end
 end
-binding.pry
+
 
 
 def player_stats(name)
