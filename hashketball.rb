@@ -204,7 +204,6 @@ def big_shoe_rebounds
   mv = 0
   game_hash.each_with_index do |h_a, df_h_a, i|
     game_hash[h_a][:players].each do |p_s|
-      binding.pry
       if p_s[:shoe] > mv
          mv = p_s[:shoe]
       end
