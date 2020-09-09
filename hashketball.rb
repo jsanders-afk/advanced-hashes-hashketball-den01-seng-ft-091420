@@ -177,11 +177,12 @@ end
 def player_numbers(a_team)
   game_hash.each_with_object([]) do |(h_a, df_h_a), p_n|
     if game_hash[h_a][:team_name] == a_team
+       game_hash[h_a][:players][]
       
     end
   end
 end
-
+binding.pry
 
 
 def player_stats(name)
