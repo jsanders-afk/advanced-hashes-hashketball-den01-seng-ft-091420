@@ -183,7 +183,7 @@ def player_numbers(a_team)
     end
   end
 end
-
+binding.pry
 
 
 def player_stats(name)
