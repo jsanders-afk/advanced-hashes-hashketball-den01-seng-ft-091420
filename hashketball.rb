@@ -156,8 +156,6 @@ def team_colors(name_of_team)
   game_hash.each do |h_a, df_h_a|
     if game_hash[h_a][:team_name] == name_of_team do
     puts "yup!"
-    else
-    puts "nah"
     end
   end
 end
