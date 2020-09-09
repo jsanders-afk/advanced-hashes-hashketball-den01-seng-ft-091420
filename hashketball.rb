@@ -157,7 +157,7 @@ def team_colors(name_of_team)
     game_hash[h_a][:team_name] == name_of_team
   end
 end
-
+binding.pry
 
 
 
