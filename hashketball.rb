@@ -203,11 +203,11 @@ end
 def big_shoe_rebounds
   mv = 0
   game_hash.each_with_index do |h_a, df_h_a, i|
-    game_hash[h_a][:players].each do |p_s|
+    game_hash[h_a][:players].each_with_index do |p_s, i|
       if p_s[:shoe] > mv
         puts mv = p_s[:shoe]
       end
-      p_s
+      i
     end
   end
 end
