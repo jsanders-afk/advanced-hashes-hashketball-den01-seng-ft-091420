@@ -203,8 +203,8 @@ end
 def big_shoe_rebounds
   game_hash.each do |h_a, df_h_a|
     game_hash[h_a][:players].each do |p_s|
-      p_s[:shoe].max do
-      
+      p_s[:shoe].max 
+      end
     end
   end
 end
