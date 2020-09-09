@@ -213,7 +213,7 @@ def big_shoe_rebounds
   game_hash.each do |h_a, df_h_a|
     game_hash[h_a][:players].each do |p_s|
       if p_s[:shoe] == mv
-         p_s
+         return p_s
       end
     end
   end
