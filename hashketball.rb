@@ -155,7 +155,6 @@ end
 def team_colors(name_of_team)
   game_hash.each do |h_a, df_h_a|
     binding.pry
-    end
   end
 end
 
