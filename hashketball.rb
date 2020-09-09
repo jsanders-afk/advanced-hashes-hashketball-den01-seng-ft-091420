@@ -176,7 +176,7 @@ end
 
 def player_numbers(a_team)
   game_hash.each_with_object([]) do |(h_a, df_h_a), p_n|
-    if game_hash[h_a][:team_name] == name_of_team
+    if game_hash[h_a][:team_name] == a_team
        return yes!
     end
   end
