@@ -154,7 +154,8 @@ end
 
 def team_colors(name_of_team)
   game_hash.find do |h_a, df_h_a|
-    game_hash[h_a][:team_name] == name_of_team
+    if game_hash[h_a][:team_name] == name_of_team do 
+       
   end
 end
 binding.pry
