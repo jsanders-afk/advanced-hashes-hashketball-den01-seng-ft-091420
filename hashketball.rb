@@ -164,13 +164,20 @@ end
 
 
 
-def player_numbers
+def player_numbers(a_team)
 end
 
 
 
 
-def player_stats
+def player_stats(name)
+game_hash.each do |h_a, df_h_a|
+    game_hash[h_a][:players].each do |p_s|
+      if p_s[:player_name] == name
+         return p_s
+      end
+    end
+  end
 end
 
 
