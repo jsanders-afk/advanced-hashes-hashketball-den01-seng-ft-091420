@@ -169,9 +169,8 @@ def team_names
     name_array << game_hash[h_a][:team_name]
   end
   name_array
-  binding.pry
 end
-
+binding.pry
 
 
 
