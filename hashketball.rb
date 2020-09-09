@@ -166,7 +166,7 @@ end
 def team_names
   name_array = []
   game_hash.each do |h_a, df_h_a|
-    binding.pry
+    
   end
 end
 
