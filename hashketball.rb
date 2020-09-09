@@ -170,7 +170,7 @@ def team_names
   end
   name_array
 end
-binding.pry
+
 
 
 
