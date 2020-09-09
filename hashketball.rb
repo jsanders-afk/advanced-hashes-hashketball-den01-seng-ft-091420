@@ -172,7 +172,7 @@ def team_names
 end
 
 
-binding.pry
+
 
 def player_numbers(a_team)
   game_hash.each_with_object([]) do |(h_a, df_h_a), p_n|
@@ -181,7 +181,7 @@ def player_numbers(a_team)
   end
 end
 
-
+binding.pry
 
 
 def player_stats(name)
