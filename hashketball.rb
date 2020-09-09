@@ -203,13 +203,11 @@ end
 def big_shoe_rebounds
   game_hash.each do |h_a, df_h_a|
     game_hash[h_a][:players].each do |p_s|
-      if p_s[:shoe] == name
-         return p_s
-      end
+      binding.pry
     end
   end
 end
-binding.pry
+
 
 
 
