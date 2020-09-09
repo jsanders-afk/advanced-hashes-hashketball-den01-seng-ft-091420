@@ -207,7 +207,9 @@ def big_shoe_rebounds
       if p_s[:shoe] > mv
         puts mv = p_s[:shoe]
       end
-     
+      if p_s[:shoe] == mv
+        p_s[:shoe]
+      end
     end
   end
 end
