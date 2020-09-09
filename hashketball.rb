@@ -206,7 +206,7 @@ def big_shoe_rebounds
     game_hash[h_a][:players].each_with_index do |p_s, i|
       binding.pry
       if p_s[:shoe] > mv
-        puts mv = p_s[:shoe]
+         mv = p_s[:shoe]
       end
     end
   end
