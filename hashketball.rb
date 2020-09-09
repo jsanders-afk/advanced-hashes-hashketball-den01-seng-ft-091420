@@ -177,7 +177,7 @@ end
 def player_numbers(a_team)
   game_hash.each_with_object([]) do |(h_a, df_h_a), p_n|
     if game_hash[h_a][:team_name] == a_team
-       return yes!
+       return "yes!"
     end
   end
 end
