@@ -172,12 +172,11 @@ def team_names
 end
 
 
-
+binding.pry
 
 def player_numbers(a_team)
   game_hash.each_with_object([]) do |h_a, df_h_a, p_n|
     game_hash[h_a][:players].each do |p_s|
-    binding.pry
     end
   end
 end
